@@ -7,8 +7,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
- }
+    padding: 20px;
+   
+}
+.name {
+   font-size: 30px;
+}
+  
+
 
  #nav-item {
     display: flex;
@@ -30,12 +36,13 @@ nav {
    color: white;
 }
 
+ 
  header {
    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/image20.jpg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   height: 100vh;
+   height: 150vh;
 }
 
 .button {
@@ -43,10 +50,11 @@ nav {
    color: white;
    font-size: 16px;
    border: none;
-   padding: 15px 50px;
+   padding: 20px 50px;
    text-align: center;
    display: inline-block;
    border-radius: 12px;
+   cursor: pointer;
 }
 .button:hover {
    background-color: grey;
@@ -56,7 +64,7 @@ nav {
 .Hero {
   text-align: center;
   color: white;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 .Hero-head {
    font-size: 80px;
@@ -65,3 +73,44 @@ nav {
 .Hero p {
    font-size: 20px;
 }
+.Hero button {
+   background-color: rgba(255, 255, 255, 0.055);
+   color: white;
+   font-size: 16px;
+   border: 2px solid white;
+   padding: 20px 50px;
+   text-align: center;
+   display: inline-block;
+   border-radius: 5px;
+   margin-top: 4%;
+   cursor: pointer;  
+}
+.main {
+   display: flex;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+   
+.flex-container {
+   display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+  
+}
+ .text {
+   font-size: 40px;
+   padding-left: 10%;
+   margin-bottom: 2rem;
+   color: rgba(38, 160, 38, 0.822);
+
+ }
+ .sub-texts {
+   font-size:18px ;
+   padding-top: 10%;
+   color: rgba(0, 128, 0, 0.493);
+ }
+ .sub-texts  {
+   padding-top: 10%;
+ }
+
+ 
