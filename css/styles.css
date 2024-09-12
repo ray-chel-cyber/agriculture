@@ -1,19 +1,25 @@
  * {
     padding: 0%;
     margin: 0%;
-}
-nav {
+ }
+
+ nav {
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-   
-}
-.name {
-   font-size: 30px;
-}
-  
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+
+ }
+
+ .name {
+    font-size: 30px;
+ }
+
 
 
  #nav-item {
@@ -28,89 +34,232 @@ nav {
 
  nav a {
     text-decoration: none;
-    color:darkgreen;
+    color: darkgreen;
     font-size: 20px;
  }
+
  .number {
-   background-color: green;
-   color: white;
-}
+    background-color: green;
+    color: white;
+ }
 
- 
+
  header {
-   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/image20.jpg');
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   height: 150vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/image20.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 20%;
+
+ }
+
+ .button {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    cursor: pointer;
+ }
+
+ .button:hover {
+    background-color: grey;
+    color: white;
+ }
+
+ .Hero {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+ }
+
+ .Hero-head {
+    font-size: 80px;
+    color: white;
+ }
+
+ .Hero p {
+    font-size: 20px;
+ }
+
+ .Hero button {
+    background-color: rgba(255, 255, 255, 0.055);
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 4%;
+    cursor: pointer;
+    text-decoration: solid;
+    transition: all 0.5s;
+ }
+
+
+ .main {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+
+ .flex-container {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+
+ }
+
+ .text {
+    font-size: 40px;
+    padding-left: 10%;
+    margin-bottom: 2rem;
+    color: rgba(38, 160, 38, 0.822);
+
+ }
+
+ .sub-texts {
+    font-size: 18px;
+    padding-top: 10%;
+    color: rgba(0, 128, 0, 0.514);
+ }
+
+ .sub-texts p {
+    margin-bottom: 2rem;
+ }
+
+ .main-2 {
+    display: flex;
+ }
+
+ .double-container {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-around;
+    margin: 2rem;
+    width: 100%;
+    gap: 50px;
+
+ }
+
+ .image2-container {
+    display: flex;
+    width: 50%;
+    gap: 30px;
+
+ }
+
+ .Text {
+    background-color: whitesmoke;
+    width: 70%;
+    color: rgba(38, 160, 38, 0.822);
+    text-align: center;
+
+ }
+
+ .image {
+    width: 90%;
+ }
+
+ .image img {
+    width: 100%;
+
+ }
+
+ .button2 {
+    background-color: green;
+    color: white;
+    font-size: 13px;
+    border: none;
+    padding: 10px 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+
+ }
+
+ .serve {
+    font-size: 60px;
+    text-align: center;
+    color: rgba(38, 160, 38, 0.822);
+    margin-top: 90px;
+ }
+
+ .Sub-texts h1 {
+    margin-bottom: 1rem;
+    text-align: left;
+ }
+
+ .Sub-texts h4 {
+    margin-bottom: 1rem;
+    text-align: left;
+ }
+
+ .Sub-texts p {
+    text-align: left;
+    color: gray;
+ }
+
+ .numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 6rem;
+
+}
+.numbers h1 {
+   font-size: 45px;
+   margin-bottom: 2rem;
+   color: green;
 }
 
-.button {
+hr {
+   width: 80%;
+   margin: auto;
+   margin-top: 4rem;
+   margin-bottom: 3rem;
+   height: 1px;
    background-color: green;
-   color: white;
-   font-size: 16px;
-   border: none;
-   padding: 20px 50px;
-   text-align: center;
-   display: inline-block;
-   border-radius: 12px;
-   cursor: pointer;
-}
-.button:hover {
-   background-color: grey;
-   color: white;
 }
 
-.Hero {
-  text-align: center;
-  color: white;
-  margin-top: 300px;
-}
-.Hero-head {
-   font-size: 80px;
-   color:white;
-}
-.Hero p {
-   font-size: 20px;
-}
-.Hero button {
-   background-color: rgba(255, 255, 255, 0.055);
-   color: white;
-   font-size: 16px;
-   border: 2px solid white;
-   padding: 20px 50px;
-   text-align: center;
-   display: inline-block;
-   border-radius: 5px;
-   margin-top: 4%;
-   cursor: pointer;  
-}
-.main {
+.mainy {
    display: flex;
    padding-left: 10%;
    padding-right: 10%;
 }
-   
-.flex-container {
+
+.flexy-container {
    display: flex;
-  padding-top: 100px;
-  justify-content: space-between;
-  
+   padding-top: 100px;
+   justify-content: space-between;
+
 }
- .text {
+
+.texter {
    font-size: 40px;
    padding-left: 10%;
    margin-bottom: 2rem;
-   color: rgba(38, 160, 38, 0.822);
+   color: b;
 
- }
- .sub-texts {
-   font-size:18px ;
-   padding-top: 10%;
-   color: rgba(0, 128, 0, 0.493);
- }
- .sub-texts  {
-   padding-top: 10%;
- }
+}
 
- 
+.sub-texter {
+   font-size: 18px;
+   padding-top: 10%;
+   color: black;
+}
+
+.sub-texts q {
+   margin-bottom: 2rem;
+   color: black;
+}
